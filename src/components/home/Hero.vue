@@ -4,7 +4,7 @@ import FilledButton from "../general/FilledButton.vue";
 <template>
   <div class="container mx-auto flex justify-around">
     <!-- left side content -->
-    <div class="w-1/2 flex flex-col border-2">
+    <div class="w-1/2 flex flex-col ">
       <p class="text-sm uppercase text-darkblue">gradinita elim hotar</p>
       <h1 class="text-5xl uppercase text-yellow">
         bine ai venit <br />
@@ -16,13 +16,15 @@ import FilledButton from "../general/FilledButton.vue";
         facere explicabo, quaerat ut iure perspiciatis mollitia asperiores
         nulla! Fuga, sed!
       </p>
+
       <!-- buttons -->
-      <div class="flex items-center border-2">
+      <div class="flex items-center ">
         <FilledButton
           text="mai mult"
           color="bg-lightblue"
           to="/about"
         ></FilledButton>
+        <!-- phone number -->
         <span class="flex">
           <span class="ml-2 flex items-center"
             >
@@ -35,7 +37,9 @@ import FilledButton from "../general/FilledButton.vue";
             <p class="text-xl font-semibold text-lightblue">+40 745 572 157</p></span
           >
         </span>
+        <!-- /phone number -->
       </div>
+      <!-- /buttons -->
     </div>
     <!-- right side image -->
     <div>

@@ -7,6 +7,9 @@
        extend: {},
        colors: {
         'yellow': '#EEC759',
+        'green': '#B1C381',
+        'darkblue': '#455663',
+        'lightblue': '#9BB8CD',
        },
      },
      variants: {

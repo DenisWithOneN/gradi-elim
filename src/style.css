@@ -19,8 +19,12 @@
     background-image: url("src/assets/svg/footer.svg");
   }
 
- 
+  .fillblob {
+    background-image: url("src/assets/svg/fillblob.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio:1920/1000;
 
-  .fillblobl {
-    background-image: url("src/assets/svg/fillblobl.svg");
+    
   }

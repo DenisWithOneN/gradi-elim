@@ -19,12 +19,28 @@
     background-image: url("src/assets/svg/footer.svg");
   }
 
+  .aboutup {
+    background-image: url("src/assets/svg/aboutup.svg");
+  }
+
+  .aboutdown {
+    background-image: url("src/assets/svg/aboutdown.svg");
+  }
+
+  .galleryup {
+    background-image: url("src/assets/svg/galleryup.svg");
+  }
+
+  .gallerydown {
+    background-image: url("src/assets/svg/gallerydown.svg");
+  }
+
   .fillblob {
     background-image: url("src/assets/svg/fillblob.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     aspect-ratio:1920/1000;
-
-    
   }
+
+

@@ -1,4 +1,7 @@
-<script setup></script>
+<script setup>
+import FilledButton from '../general/FilledButton.vue';
+
+</script>
 <template>
   <div class="container mx-auto flex justify-around">
     <!-- left side content -->
@@ -16,7 +19,7 @@
       </p>
       <!-- buttons -->
       <div class="flex">
-        <button>mai mult</button>
+        <FilledButton text="mai mult" color="bg-lightblue" to="/about"></FilledButton>
         <span class="flex"
           ><i class="bi bi-telephone-fill"></i>
           <p>+40 745 572 157</p></span

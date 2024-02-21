@@ -5,12 +5,12 @@ import FilledButton from "../general/FilledButton.vue";
   <div class="container mx-auto flex justify-around">
     <!-- left side content -->
     <div class="w-1/2 flex flex-col border-2">
-      <p class="text-md">gradinita elim hotar</p>
-      <h1 class="text-5xl uppercase">
+      <p class="text-md text-darkblue">gradinita elim hotar</p>
+      <h1 class="text-5xl uppercase text-yellow">
         bine ai venit <br />
         gradi elim
       </h1>
-      <p class="text-md">
+      <p class="text-md text-darkblue">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
         facilis magnam! Maiores, corrupti sunt dolor molestias vero, quo ullam
         facere explicabo, quaerat ut iure perspiciatis mollitia asperiores
@@ -32,7 +32,7 @@ import FilledButton from "../general/FilledButton.vue";
                 class="bi bi-telephone-fill text-white text-md"
               ></i
             ></span>
-            <p>+40 745 572 157</p></span
+            <p class="text-darkblue">+40 745 572 157</p></span
           >
         </span>
       </div>

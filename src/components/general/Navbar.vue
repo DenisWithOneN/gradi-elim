@@ -5,7 +5,7 @@ import { RouterLink } from "vue-router";
   <nav class="spacer navbar">
     <div class="flex justify-between container mx-auto pt-2">
       <div class="flex items-center">
-      <img src="/src/assets/ELIM_LOGO.png" alt="logo" class="w-10 h-10">
+      <img src="/src/assets/images/ELIM_LOGO.png" alt="logo" class="w-10 h-10">
       <RouterLink to="/" class="mx-2">acasa</RouterLink>
       <RouterLink to="/about" class="mx-2">despre noi</RouterLink>
       <RouterLink to="/offer" class="mx-2">oferta educationala</RouterLink>

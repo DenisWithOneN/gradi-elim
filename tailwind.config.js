@@ -10,6 +10,7 @@
         'green': '#B1C381',
         'darkblue': '#455663',
         'lightblue': '#9BB8CD',
+        'white': '##f8fafc',
        },
      },
      variants: {

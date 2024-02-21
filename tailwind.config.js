@@ -5,6 +5,9 @@
      darkMode: false, // or 'media' or 'class'
      theme: {
        extend: {},
+       colors: {
+        'yellow': '#EEC759',
+       },
      },
      variants: {
        extend: {},

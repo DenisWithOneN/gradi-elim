@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.spacer {
+    aspect-ratio:1500/300;
+    width: 100%;
+    max-height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .navbar {
+    background-image: url("src/assets/svg/navbar.svg");
+  }

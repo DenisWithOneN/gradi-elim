@@ -1,6 +1,10 @@
-<script setup></script>
+<script setup>
+import {RouterView} from 'vue-router';
+
+</script>
 <template>
-  <p class="bg-red-500">abc</p>
-  <p>abdddddc</p>
+  <header>
+    <RouterView></RouterView>
+  </header>
 </template>
 <style></style>

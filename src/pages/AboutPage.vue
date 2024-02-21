@@ -1,8 +1,11 @@
 <script setup>
 import Navbar from "../components/general/Navbar.vue";
+import Footer from "../components/general/Footer.vue";
 </script>
 <template>
-  <Navbar></Navbar>
-  <p>despre noi</p>
+  <body class="min-h-screen flex flex-col justify-between">
+    <Navbar></Navbar>
+    <Footer></Footer>
+  </body>
 </template>
 <style></style>

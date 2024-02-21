@@ -23,8 +23,8 @@ const items = [
 </script>
 <template>
   <div class="aboutup spacer"></div>
-  <span class="bg-lightblue">
-    <div class="container mx-auto flex justify-around">
+  <div class="bg-lightblue">
+    <div class="container mx-auto flex justify-around items-center">
       <img
         src="https://picsum.photos/2000"
         alt="misiune&viziune"
@@ -65,6 +65,6 @@ const items = [
       </div>
       <!-- /right content -->
     </div>
-  </span>
+</div>
   <div class="aboutdown spacer"></div>
 </template>

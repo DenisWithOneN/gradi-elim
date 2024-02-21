@@ -1,6 +1,5 @@
 <script setup>
-import FilledButton from '../general/FilledButton.vue';
-
+import FilledButton from "../general/FilledButton.vue";
 </script>
 <template>
   <div class="container mx-auto flex justify-around">
@@ -18,17 +17,33 @@ import FilledButton from '../general/FilledButton.vue';
         nulla! Fuga, sed!
       </p>
       <!-- buttons -->
-      <div class="flex">
-        <FilledButton text="mai mult" color="bg-lightblue" to="/about"></FilledButton>
-        <span class="flex"
-          ><i class="bi bi-telephone-fill"></i>
-          <p>+40 745 572 157</p></span
-        >
+      <div class="flex items-center border-2">
+        <FilledButton
+          text="mai mult"
+          color="bg-lightblue"
+          to="/about"
+        ></FilledButton>
+        <span class="flex">
+          <span class="ml-2 flex items-center"
+            >
+            <!-- phone icon -->
+            <span class="flex bg-lightblue rounded-xl py-2 px-3"
+              ><i
+                class="bi bi-telephone-fill text-white text-md"
+              ></i
+            ></span>
+            <p>+40 745 572 157</p></span
+          >
+        </span>
       </div>
     </div>
     <!-- right side image -->
     <div>
-      <img src="/src/assets/images/herophoto.png" alt="hero image" class="h-96"/>
+      <img
+        src="/src/assets/images/herophoto.png"
+        alt="hero image"
+        class="h-96"
+      />
     </div>
   </div>
 </template>

@@ -19,9 +19,8 @@
     background-image: url("src/assets/svg/footer.svg");
   }
 
-  .herowaves {
-    background-image: "/src/assets/svg/hero_background_waves.svg";
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+ 
+
+  .fillblobl {
+    background-image: url("src/assets/svg/fillblobl.svg");
   }

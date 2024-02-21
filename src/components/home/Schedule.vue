@@ -37,7 +37,7 @@ const hours = [
 </script>
 <template>
   <div class="container mx-auto mb-2">
-    <h2 class="text-4xl font-semibold text-center text-yellow">orar</h2>
+    <h2 class="text-4xl font-semibold text-center uppercase text-yellow">orar</h2>
     <div class="flex justify-around items-center">
       <!-- left content -->
       <div>

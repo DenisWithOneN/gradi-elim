@@ -5,6 +5,7 @@ import Hero from "../components/home/Hero.vue";
 import Quote from "../components/home/Quote.vue";
 import AboutUs from "../components/home/AboutUs.vue";
 import Schedule from "../components/home/Schedule.vue";
+import Gallery from "../components/home/Gallery.vue";
 </script>
 <template>
   <body class="min-h-screen flex flex-col justify-between">
@@ -13,6 +14,7 @@ import Schedule from "../components/home/Schedule.vue";
     <Quote></Quote>
     <AboutUs></AboutUs>
     <Schedule></Schedule>
+    <Gallery></Gallery>
     <Footer></Footer>
   </body>
 </template>

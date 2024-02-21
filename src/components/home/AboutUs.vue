@@ -29,13 +29,13 @@ const items = [
         src="https://picsum.photos/2000"
         alt="misiune&viziune"
         class="rounded-3xl"
-        style="height: 30rem"
+        style="height: 33rem"
       />
 
       <!-- right content -->
-      <div class="w-1/2">
-        <h2 class="text-4xl text-yellow">misiune <br />& viziune</h2>
-        <p class="text-darkblue">
+      <div class="w-1/2 pl-5">
+        <h2 class="text-4xl uppercase font-semibold text-yellow">misiune <br />& viziune</h2>
+        <p class="text-lg text-darkblue">
           Grădiniţa noastră are o experienţă bogată în promovarea educaţiei la
           vârstă fragedă , în formarea unor deprinderi intelectuale şi abilităţi
           practice la copil, în funcţie de particularităţile de vârstă, la care
@@ -43,9 +43,9 @@ const items = [
           inter-culturale.
         </p>
         <!-- checkmarks -->
-        <div v-for="(item, index) in items" :key="index" class="flex">
-          <span class="text-yellow"><i class="bi bi-check-circle-fill"></i></span>
-          <p class="text-darkblue">{{ item.text }}</p>
+        <div v-for="(item, index) in items" :key="index" class="flex my-5 items-start">
+          <span class="text-yellow"><i class="bi bi-check-circle-fill text-3xl"></i></span>
+          <p class="text-md pl-2 text-darkblue">{{ item.text }}</p>
         </div>
         <!-- /checkmarks -->
       </div>

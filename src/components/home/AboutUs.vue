@@ -1,4 +1,5 @@
 <script setup>
+import FilledButton from "../general/FilledButton.vue";
 const items = [
   {
     text: "Creşterea prestigiului grădiniţei prin aşezarea copilului şi a preocupărilor sale în centrul activităţii educaţionale.",
@@ -22,9 +23,8 @@ const items = [
 </script>
 <template>
   <div class="aboutup spacer"></div>
-  <div class="bg-lightblue">
+  <span class="bg-lightblue">
     <div class="container mx-auto flex justify-around">
-      <!-- left image -->
       <img
         src="https://picsum.photos/2000"
         alt="misiune&viziune"
@@ -32,9 +32,12 @@ const items = [
         style="height: 33rem"
       />
 
+
       <!-- right content -->
-      <div class="w-1/2 pl-5">
-        <h2 class="text-4xl uppercase font-semibold text-yellow">misiune <br />& viziune</h2>
+      <div class="w-1/2 pl-5 pb-3">
+        <h2 class="text-4xl uppercase font-semibold text-yellow">
+          misiune <br />& viziune
+        </h2>
         <p class="text-lg text-darkblue">
           Grădiniţa noastră are o experienţă bogată în promovarea educaţiei la
           vârstă fragedă , în formarea unor deprinderi intelectuale şi abilităţi
@@ -43,14 +46,25 @@ const items = [
           inter-culturale.
         </p>
         <!-- checkmarks -->
-        <div v-for="(item, index) in items" :key="index" class="flex my-5 items-start">
-          <span class="text-yellow"><i class="bi bi-check-circle-fill text-3xl"></i></span>
+        <div
+          v-for="(item, index) in items"
+          :key="index"
+          class="flex my-5 items-start"
+        >
+          <span class="text-yellow"
+            ><i class="bi bi-check-circle-fill text-3xl"></i
+          ></span>
           <p class="text-md pl-2 text-darkblue">{{ item.text }}</p>
         </div>
         <!-- /checkmarks -->
+        <FilledButton
+          text="despre noi"
+          color="bg-yellow"
+          to="/about"
+        ></FilledButton>
       </div>
       <!-- /right content -->
     </div>
-  </div>
+  </span>
   <div class="aboutdown spacer"></div>
 </template>

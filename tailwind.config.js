@@ -12,6 +12,10 @@ module.exports = {
         'lightblue': "#9BB8CD",
         'white': "#f8fafc",
       },
+      fontFamily: {
+        heading: ['Tauri'],
+        body: ['Itim']
+      },
     },
   },
   variants: {

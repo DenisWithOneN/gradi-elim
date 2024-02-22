@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Luckiest+Guy&family=Tauri&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
 
 .spacer {
     aspect-ratio:1920/300;
@@ -10,6 +15,15 @@
     background-size: cover;
     background-position: center;
   }
+
+  .fillblob {
+    background-image: url("src/assets/svg/fillblob.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio:1920/1000;
+  }
+
 
   .navbar {
     background-image: url("src/assets/svg/navbar.svg");
@@ -35,12 +49,6 @@
     background-image: url("src/assets/svg/gallerydown.svg");
   }
 
-  .fillblob {
-    background-image: url("src/assets/svg/fillblob.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    aspect-ratio:1920/1000;
-  }
+  
 
 

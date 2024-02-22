@@ -20,4 +20,6 @@ import EducationalOffer from "../components/home/EducationalOffer.vue";
     <Footer></Footer>
   </body>
 </template>
-<style></style>
+<style>
+
+</style>

@@ -27,7 +27,7 @@ const offers = [
 </script>
 <template>
   <section class="flex flex-col items-center">
-    <h2 class="text-4xl text-center font-semibold uppercase text-yellow">
+    <h2 class="text-4xl text-center font-semibold uppercase font-heading text-yellow">
       oferta educationala
     </h2>
     <p class="text-md w-1/2 text-center text-darkblue">

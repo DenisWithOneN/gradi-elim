@@ -35,10 +35,10 @@ const items = [
 
       <!-- right content -->
       <div class="w-1/2 pl-5 pb-3">
-        <h2 class="text-4xl uppercase font-semibold text-yellow">
+        <h2 class="text-4xl uppercase font-semibold font-heading text-darkblue">
           misiune <br />& viziune
         </h2>
-        <p class="text-lg text-darkblue">
+        <p class="text-lg font-body text-darkblue">
           Grădiniţa noastră are o experienţă bogată în promovarea educaţiei la
           vârstă fragedă , în formarea unor deprinderi intelectuale şi abilităţi
           practice la copil, în funcţie de particularităţile de vârstă, la care

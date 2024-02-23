@@ -25,23 +25,16 @@ const items = [
   <div class="aboutup spacer"></div>
   <div class="bg-lightblue">
     <div class="container mx-auto flex justify-around items-center">
-      <div class="flex flex-col items-center">
-        <img
-          src="https://picsum.photos/2000"
-          alt="misiune&viziune"
-          class="rounded-3xl mb-3"
-          style="height: 33rem"
-        />
-        <FilledButton
-          text="despre noi"
-          color="bg-yellow"
-          to="/about"
-        ></FilledButton>
-      </div>
+      <img
+        src="https://picsum.photos/2000"
+        alt="misiune&viziune"
+        class="rounded-3xl mb-3"
+        style="height: 33rem"
+      />
 
       <!-- right content -->
       <div class="w-1/2 pl-5 pb-3">
-        <h2 class="text-5xl uppercase font-semibold font-heading text-darkblue">
+        <h2 class="text-5xl uppercase font-black font-heading text-yellow">
           misiune <br />& viziune
         </h2>
         <p class="text-xl font-body text-white">
@@ -62,6 +55,11 @@ const items = [
           </div>
           <p class="text-xl pl-2 font-body text-white">{{ item.text }}</p>
         </div>
+        <FilledButton
+          text="despre noi"
+          color="bg-yellow"
+          to="/about"
+        ></FilledButton>
         <!-- /checkmarks -->
       </div>
       <!-- /right content -->

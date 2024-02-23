@@ -25,22 +25,28 @@ const items = [
   <div class="aboutup spacer"></div>
   <div class="bg-lightblue">
     <div class="container mx-auto flex justify-around items-center">
-      <img
-        src="https://picsum.photos/2000"
-        alt="misiune&viziune"
-        class="rounded-3xl"
-        style="height: 33rem"
-      />
-
+      <div class="flex flex-col items-center">
+        <img
+          src="https://picsum.photos/2000"
+          alt="misiune&viziune"
+          class="rounded-3xl mb-3"
+          style="height: 33rem"
+        />
+        <FilledButton
+          text="despre noi"
+          color="bg-yellow"
+          to="/about"
+        ></FilledButton>
+      </div>
 
       <!-- right content -->
       <div class="w-1/2 pl-5 pb-3">
-        <h2 class="text-4xl uppercase font-semibold font-heading text-darkblue">
+        <h2 class="text-5xl uppercase font-semibold font-heading text-darkblue">
           misiune <br />& viziune
         </h2>
-        <p class="text-lg font-body text-darkblue">
-          Grădiniţa noastră are o experienţă bogată în promovarea educaţiei la
-          vârstă fragedă , în formarea unor deprinderi intelectuale şi abilităţi
+        <p class="text-xl font-body text-white">
+          Grădiniţa noastră are o experienţă bogată în educaţiei la vârstă
+          fragedă, în formarea unor deprinderi intelectuale şi abilităţi
           practice la copil, în funcţie de particularităţile de vârstă, la care
           putem adăuga aspecte ale moralei creştine şi ale educaţiei
           inter-culturale.
@@ -49,22 +55,17 @@ const items = [
         <div
           v-for="(item, index) in items"
           :key="index"
-          class="flex my-5 items-start"
+          class="flex my-5 items-center"
         >
-          <span class="text-yellow"
-            ><i class="bi bi-check-circle-fill text-3xl"></i
-          ></span>
-          <p class="text-md pl-2 text-darkblue">{{ item.text }}</p>
+          <div class="text-darkblue">
+            <i class="bi bi-check-circle-fill text-4xl"></i>
+          </div>
+          <p class="text-xl pl-2 font-body text-white">{{ item.text }}</p>
         </div>
         <!-- /checkmarks -->
-        <FilledButton
-          text="despre noi"
-          color="bg-yellow"
-          to="/about"
-        ></FilledButton>
       </div>
       <!-- /right content -->
     </div>
-</div>
+  </div>
   <div class="aboutdown spacer"></div>
 </template>

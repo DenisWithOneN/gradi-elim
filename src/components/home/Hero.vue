@@ -6,7 +6,7 @@ import FilledButton from "../general/FilledButton.vue";
     <!-- left side content -->
     <div class="w-1/2 flex flex-col">
       <p class="text-sm uppercase font-body text-darkblue mb-2">
-        gradinita elim hotar
+        grădinița elim hotar
       </p>
       <h1 class="text-7xl uppercase text-yellow font-heading font-black mb-3">
         bine ai venit <br />

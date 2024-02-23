@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Itim&family=Luckiest+Guy&family=Tauri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Luckiest+Guy&family=Tauri&family=Baloo+2:wght@400..800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -21,7 +21,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    aspect-ratio:900/300;
+    aspect-ratio:800/300;
   }
 
 

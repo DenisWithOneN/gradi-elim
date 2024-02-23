@@ -13,7 +13,7 @@ module.exports = {
         'white': "#f8fafc",
       },
       fontFamily: {
-        heading: ['Tauri'],
+        heading: ['"Baloo 2"', 'sans-serif'],
         body: ['Itim']
       },
     },

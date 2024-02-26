@@ -26,7 +26,7 @@ const offers = [
 ];
 </script>
 <template>
-  <section class="flex flex-col items-center">
+  <section class="offer-background container mx-auto flex flex-col items-center">
     <h2
       class="text-5xl text-center font-semibold uppercase font-heading text-yellow"
     >

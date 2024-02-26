@@ -35,7 +35,7 @@ const hours = [
 ];
 </script>
 <template>
-  <div class="container mx-auto mb-2 flex items-center justify-center">
+  <div class="schedule-background container mx-auto mb-2 flex items-center justify-center">
     <img src="/src/assets/images/schedule.png" alt="schedule" class="mx-10" />
     <svg width="5" height="400" xmlns="http://www.w3.org/2000/svg">
       <!-- Include your SVG content directly here -->
@@ -59,7 +59,7 @@ const hours = [
             <p class="font-body text-2xl font-bold text-darkblue">
               {{ interval.firstHour }} - {{ interval.secondHour }}
             </p>
-            <p class="font-body text-xl">{{ interval.activity }}</p>
+            <p class="font-body text-xl text-darkblue">{{ interval.activity }}</p>
           </div>
         </div>
       </div>

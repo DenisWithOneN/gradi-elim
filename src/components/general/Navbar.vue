@@ -3,7 +3,8 @@ import { RouterLink } from "vue-router";
 import FilledButton from "./FilledButton.vue";
 </script>
 <template>
-  <nav class="navbar_spacer navbar">
+  <!-- normal nav -->
+  <nav class="navbar_spacer navbar hidden md:block">
     <div class="flex justify-between container mx-auto pt-2">
       <div class="flex items-center">
       <img src="/src/assets/images/ELIM_LOGO.png" alt="logo" class="w-10 h-10 mx-2">
@@ -15,6 +16,11 @@ import FilledButton from "./FilledButton.vue";
     </div>
     <FilledButton color="bg-darkblue" text="contact" to="/contact"></FilledButton>
     </div>
+  </nav>
+
+  <!-- mobile nav -->
+  <nav>
+
   </nav>
 </template>
 <style></style>

@@ -4,15 +4,15 @@ import FilledButton from "../general/FilledButton.vue";
 <template>
   <div class="container mx-auto flex flex-col justify-around items-center lg:flex-row">
     <!-- left side content -->
-    <div class=" w-full lg:w-1/2 flex flex-col order-last lg:order-first">
+    <div class="w-full lg:w-1/2 flex flex-col order-last lg:order-first">
       <p class="text-sm uppercase font-body text-darkblue mb-2 text-center lg:text-start mt-20 lg:mt-0">
         grădinița elim hotar
       </p>
-      <h1 class="text-7xl uppercase  text-yellow font-heading font-black mb-3 text-center lg:text-start">
+      <h1 class="text-5xl sm:text-7xl uppercase  text-yellow font-heading font-black mb-3 text-center lg:text-start">
         bine ai venit <br />
         gradi elim
       </h1>
-      <p class="text-xl font-body text-darkblue mb-5 text-center lg:text-start">
+      <p class="text-sm sm:text-xl font-body text-darkblue mb-5 text-center lg:text-start">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
         facilis magnam! Maiores, corrupti sunt dolor molestias vero, quo ullam
         facere explicabo, quaerat ut iure perspiciatis mollitia asperiores
@@ -20,7 +20,7 @@ import FilledButton from "../general/FilledButton.vue";
       </p>
 
       <!-- buttons -->
-      <div class="flex items-center justify-center lg:justify-normal mt-10 lg:mt-0">
+      <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-normal">
         <FilledButton text="mai mult" color="bg-lightblue" to="/about" class="order-last lg:order-first"></FilledButton>
         <!-- phone number -->
         <div class="flex order-last lg:order-first">
@@ -40,7 +40,7 @@ import FilledButton from "../general/FilledButton.vue";
     </div>
     <!-- right side image -->
     <div>
-      <img src="/src/assets/images/herophoto.png" alt="hero image" style="height: 30rem;" />
+      <img src="/src/assets/images/herophoto.png" alt="hero image" class="h-60 lg:h-normal" />
     </div>
   </div>
 </template>

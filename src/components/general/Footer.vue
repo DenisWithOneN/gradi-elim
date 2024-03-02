@@ -3,9 +3,9 @@
   <footer>
     <div class="spacer footer"></div>
     <div class="bg-yellow flex justify-around">
-      <div class="container mx-auto flex justify-around pb-10">
-        <h2 class="text-5xl uppercase font-heading font-semibold text-darkblue">gradinita elim hotar</h2>
-        <div>
+      <div class="container mx-auto flex flex-col lg:flex-row justify-around pb-10 space-y-10 lg:space-y-0">
+        <h2 class="text-5xl uppercase font-heading font-semibold text-darkblue text-center lg:text-start">gradinita elim hotar</h2>
+        <div class="text-center lg:text-start">
           <h4 class="text-2xl font-body font-semibold text-darkblue">despre noi</h4>
           <ul class="text-darkblue font-body text-lg">
             <li>misiune</li>
@@ -16,7 +16,7 @@
           </ul>
         </div>
 
-        <div>
+        <div class="text-center lg:text-start">
           <h4 class="text-2xl font-body font-semibold text-darkblue">ofertă educațională</h4>
           <ul class="text-darkblue font-body text-lg">
             <li>ofertă curiculară</li>
@@ -24,7 +24,7 @@
           </ul>
         </div>
 
-        <div>
+        <div class="text-center lg:text-start">
           <h4 class="text-2xl font-body font-semibold text-darkblue">contact</h4>
           <ul class="text-darkblue font-body text-lg">
             <li>

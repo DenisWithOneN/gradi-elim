@@ -6,7 +6,7 @@ import FilledButton from "../general/FilledButton.vue";
   <div class="bg-green pb-5">
     <div class="container mx-auto">
       <h2
-        class="text-5xl uppercase text-center font-semibold font-heading text-darkblue mb-16"
+        class="text-5xl uppercase text-center font-black font-heading text-darkblue mb-16"
       >
         galerie
       </h2>

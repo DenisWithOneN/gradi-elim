@@ -3,7 +3,7 @@ import { RouterLink } from "vue-router";
 import FilledButton from "./FilledButton.vue";
 </script>
 <template>
-  <nav class="spacer navbar">
+  <nav class="navbar_spacer navbar">
     <div class="flex justify-between container mx-auto pt-2">
       <div class="flex items-center">
       <img src="/src/assets/images/ELIM_LOGO.png" alt="logo" class="w-10 h-10 mx-2">

@@ -40,7 +40,7 @@ import FilledButton from "../general/FilledButton.vue";
     </div>
     <!-- right side image -->
     <div>
-      <img src="/src/assets/images/herophoto.png" alt="hero image" class="h-60 lg:h-normal" />
+      <img src="/src/assets/images/herophoto.png" alt="hero image" class="h-60 sm:h-normal" />
     </div>
   </div>
 </template>

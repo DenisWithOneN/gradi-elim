@@ -16,6 +16,9 @@ module.exports = {
         heading: ['"Baloo 2"', 'sans-serif'],
         body: ['Itim']
       },
+      height:{
+        'normal': '30rem',
+      }
     },
   },
   variants: {

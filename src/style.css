@@ -16,6 +16,15 @@
     background-position: center;
   }
 
+  .navbar_spacer {
+    aspect-ratio:1920/500;
+    width: 100%;
+    max-height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
   .fillblob {
     background-image: url("src/assets/svg/fillblob.svg");
     background-size: cover;

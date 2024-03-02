@@ -33,21 +33,6 @@
     aspect-ratio:800/300;
   }
 
-  .schedule-background {
-    background-image: url("src/assets/images/test.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    aspect-ratio: 1536/520;
-  }
-
-  .offer-background {
-    background-image: url("src/assets/images/background2.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    aspect-ratio: 1484/720;
-  }
 
 
   .navbar {

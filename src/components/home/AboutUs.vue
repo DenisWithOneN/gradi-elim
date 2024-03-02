@@ -25,19 +25,18 @@ const items = [
   <div class="aboutup spacer"></div>
   <div class="bg-lightblue">
     <div class="container mx-auto flex justify-around items-center">
-      <img
-        src="https://picsum.photos/2000"
-        alt="misiune&viziune"
-        class="rounded-3xl mb-3"
-        style="height: 33rem"
-      />
+      <img src="https://picsum.photos/2000" alt="misiune&viziune" class="rounded-3xl mb-3 hidden lg:block"
+        style="height: 33rem" />
 
       <!-- right content -->
-      <div class="w-1/2 pl-5 pb-3">
-        <h2 class="text-5xl uppercase font-black font-heading text-yellow">
+      <div class="w-full lg:w-1/2 pl-5 pb-3">
+        <h2 class="text-5xl uppercase font-black font-heading text-yellow hidden lg:block">
           misiune <br />& viziune
         </h2>
-        <p class="text-xl font-body text-white">
+        <h2 class="text-5xl uppercase font-black font-heading text-center text-yellow block lg:hidden">
+          misiune & viziune
+        </h2>
+        <p class="text-xl font-body text-white text-center lg:text-start">
           Grădiniţa noastră are o experienţă bogată în educaţiei la vârstă
           fragedă, în formarea unor deprinderi intelectuale şi abilităţi
           practice la copil, în funcţie de particularităţile de vârstă, la care
@@ -45,21 +44,15 @@ const items = [
           inter-culturale.
         </p>
         <!-- checkmarks -->
-        <div
-          v-for="(item, index) in items"
-          :key="index"
-          class="flex my-5 items-center"
-        >
+        <div v-for="(item, index) in items" :key="index" class="flex flex-col lg:flex-row my-5 items-center">
           <div class="text-darkblue">
             <i class="bi bi-check-circle-fill text-4xl"></i>
           </div>
-          <p class="text-xl pl-2 font-body text-white">{{ item.text }}</p>
+          <p class="text-xl pl-2 font-body text-white text-center lg:text-start w-1/2 lg:w-full">{{ item.text }}</p>
         </div>
-        <FilledButton
-          text="despre noi"
-          color="bg-yellow"
-          to="/about"
-        ></FilledButton>
+        <div class="flex justify-center lg:justify-start">
+          <FilledButton text="despre noi" color="bg-yellow" to="/about"></FilledButton>
+        </div>
         <!-- /checkmarks -->
       </div>
       <!-- /right content -->

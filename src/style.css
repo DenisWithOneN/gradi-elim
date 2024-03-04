@@ -33,6 +33,16 @@
     aspect-ratio:800/500;
   }
 
+  @media (min-width: 1024px) {
+    .fillblob {
+    background-image: url("src/assets/svg/fillblob.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio:800/300;
+    }
+}
+
 
 
   .navbar {

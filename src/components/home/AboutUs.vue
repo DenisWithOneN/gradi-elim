@@ -32,11 +32,11 @@ const items = [
   <div class="bg-lightblue">
     <div class="container mx-auto flex flex-col items-center">
       <h2
-        class="text-5xl uppercase font-black font-heading text-center text-darkblue"
+        class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase font-black font-heading text-center text-darkblue"
       >
         misiune & viziune
       </h2>
-      <p class="text-xl font-body text-white text-center w-1/2">
+      <p class="text-sm md:text-xl font-body text-white text-center mx-5">
         Grădiniţa noastră are o experienţă bogată în educaţiei la vârstă
         fragedă, în formarea unor deprinderi intelectuale şi abilităţi practice
         la copil, în funcţie de particularităţile de vârstă, la care putem

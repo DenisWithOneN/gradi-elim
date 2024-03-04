@@ -17,7 +17,7 @@ module.exports = {
         body: ['Itim']
       },
       height:{
-        'normal': '30rem',
+        'normal': '35rem',
       }
     },
   },

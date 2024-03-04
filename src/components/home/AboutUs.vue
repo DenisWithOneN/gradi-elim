@@ -44,7 +44,7 @@ const items = [
       </p>
 
       <div class="flex flex-wrap justify-center mt-10">
-        <div v-for="(item, index) in items" :key="index" class="bg-yellow m-5 rounded-xl h-42 w-96 p-5">
+        <div v-for="(item, index) in items" :key="index" class="bg-yellow m-5 rounded-xl h-42 w-60 lg:w-96 p-5">
         <p class="text-3xl font-body text-darkblue">{{ item.title }}</p>
         <p class="font-body text-lg text-darkblue">{{ item.text }}</p>
         </div>

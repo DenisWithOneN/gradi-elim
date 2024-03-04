@@ -40,9 +40,9 @@ const offers = [
     <div
       class="flex flex-col lg:flex-row border-4 space-y-20 lg:space-y-0 border-green border-dashed rounded-3xl container mx-auto py-20 my-14">
       <div v-for="(offer, index) in offers" :key="index" class="flex flex-col items-center container mx-auto">
-        <div class="flex flex-col items-center bg-gray-100 p-10 rounded-2xl h-60 w-60 xl:h-96 xl:w-96">
-          <i :class="offer.icon" class="text-4xl mb-2 text-white bg-lightblue p-3 rounded-full"></i>
-          <h3 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-2 text-center text-lightblue" v-html="offer.title"></h3>
+        <div class="flex flex-col items-center bg-gray-100 p-10 rounded-2xl h-60 w-60 lg:h-96 lg:w-80 xl:h-96 xl:w-96">
+          <i :class="offer.icon" class="text-xl mb-2 text-white bg-lightblue py-2 px-3 rounded-full"></i>
+          <h3 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mb-2 text-center text-lightblue" v-html="offer.title"></h3>
           <div class="flex flex-col">
             <p v-for="(detail, detailIndex) in offer.details" :key="detailIndex"
               class="text-sm lg:text-xl font-body text-center text-lightblue">

@@ -26,7 +26,7 @@
   }
 
   .fillblob {
-    background-image: url("src/assets/svg/fillblob.svg");
+    background-image: url("./assets/svg/fillblob.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@
 
   @media (min-width: 1024px) {
     .fillblob {
-    background-image: url("src/assets/svg/fillblob.svg");
+    background-image: url("./assets/svg/fillblob.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -46,27 +46,27 @@
 
 
   .navbar {
-    background-image: url("src/assets/svg/navbar.svg");
+    background-image: url("./assets/svg/navbar.svg");
   }
 
   .footer {
-    background-image: url("src/assets/svg/footer.svg");
+    background-image: url("./assets/svg/footer.svg");
   }
 
   .aboutup {
-    background-image: url("src/assets/svg/aboutup.svg");
+    background-image: url("./assets/svg/aboutUP.svg");
   }
 
   .aboutdown {
-    background-image: url("src/assets/svg/aboutdown.svg");
+    background-image: url("./assets/svg/aboutDOWN.svg");
   }
 
   .galleryup {
-    background-image: url("src/assets/svg/galleryup.svg");
+    background-image: url("./assets/svg/galleryUP.svg");
   }
 
   .gallerydown {
-    background-image: url("src/assets/svg/gallerydown.svg");
+    background-image: url("./assets/svg/galleryDOWN.svg");
   }
 
 

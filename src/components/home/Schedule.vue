@@ -35,9 +35,9 @@ const hours = [
 ];
 </script>
 <template>
-  <div class="container mx-auto mb-2 hidden lg:flex items-center justify-center">
+  <div class="container mx-auto mb-2 flex flex-col items-center justify-center">
     <img src="/src/assets/images/schedule.png" alt="schedule" class="mx-10" />
-    <svg width="5" height="400" xmlns="http://www.w3.org/2000/svg">
+    <svg width="5" height="400" xmlns="http://www.w3.org/2000/svg" class="hidden lg:block">
       <!-- Include your SVG content directly here -->
       <use href="/src/assets/svg/background_design/scheduleLine.svg#1" />
     </svg>

@@ -19,8 +19,9 @@ import FilledButton from "./FilledButton.vue";
   </nav>
 
   <!-- mobile nav -->
-  <nav>
-
+  <nav class="flex md:hidden items-center my-5 justify-evenly">
+    <RouterLink to="/" class="uppercase font-semibold text-lg font-heading mx-2 text-darkblue bg-lightblue rounded-full px-2">acasă</RouterLink>
+    <p class="text-sm font-body text-gray-300">mai multe pagini curand...</p>
   </nav>
 </template>
 <style></style>

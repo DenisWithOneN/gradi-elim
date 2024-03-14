@@ -1,5 +1,6 @@
 <script setup>
 import FilledButton from "../general/FilledButton.vue";
+import EmptyButton from "../general/EmptyButton.vue"
 </script>
 
 <template>
@@ -24,17 +25,11 @@ import FilledButton from "../general/FilledButton.vue";
 
       <!-- buttons -->
       <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-normal">
-        <FilledButton size="text-2xl" text="mai mult" color="bg-lightblue" to="/about" class="order-last lg:order-first"></FilledButton>
+        <FilledButton size="text-2xl" text="mai mult" color="lightblue" to="/about" class="order-last lg:order-first"></FilledButton>
         <!-- phone number -->
         <div class="flex order-last lg:order-first">
           <div class="ml-2 flex items-center">
-            <!-- phone icon -->
-            <div class="flex bg-lightblue rounded-xl py-2 px-3">
-              <i class="bi bi-telephone-fill text-white text-2xl"></i>
-            </div>
-            <p class="text-2xl font-semibold font-body text-lightblue ml-2">
-              +40 745 572 157
-            </p>
+            <EmptyButton size="text-2xl" text="contact" color="lightblue" to="/contact" class="order-last lg:order-first"></EmptyButton>
           </div>
         </div>
         <!-- /phone number -->

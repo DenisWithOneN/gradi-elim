@@ -56,19 +56,19 @@ const toggleMenu = () => {
         class="bg-green min-h-screen text-center z-[1] absolute w-full left-0 py-4 pl-7 top-[-400px] transition-all ease-in duration-500"
         :style="{ opacity: isMenuOpen ? 1 : 0 }">
         <li class="mx-4 my-6 ">
-          <RouterLink to="/" class="text-2xl font-semibold ">Acasa</RouterLink>
+          <RouterLink to="/" class="text-2xl text-darkblue font-semibold ">Acasa</RouterLink>
         </li>
         <li class="mx-4 my-6 ">
-          <RouterLink to="/about" class="text-2xl font-semibold">Despre noi</RouterLink>
+          <RouterLink to="/about" class="text-2xl text-darkblue font-semibold">Despre noi</RouterLink>
         </li>
         <li class="mx-4 my-6 ">
-          <RouterLink to="/offer" class="text-2xl font-semibold">Oferta educationala</RouterLink>
+          <RouterLink to="/offer" class="text-2xl text-darkblue font-semibold">Oferta educationala</RouterLink>
         </li>
         <li class="mx-4 my-6 ">
-          <RouterLink to="/gallery" class="text-2xl font-semibold">Galerie</RouterLink>
+          <RouterLink to="/gallery" class="text-2xl text-darkblue font-semibold">Galerie</RouterLink>
         </li>
         <li class="mx-4 my-6 ">
-          <RouterLink to="/schedule" class="text-2xl font-semibold">Orar</RouterLink>
+          <RouterLink to="/schedule" class="text-2xl text-darkblue font-semibold">Orar</RouterLink>
         </li>
         
       </ul>

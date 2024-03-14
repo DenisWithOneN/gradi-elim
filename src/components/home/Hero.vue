@@ -24,7 +24,7 @@ import FilledButton from "../general/FilledButton.vue";
 
       <!-- buttons -->
       <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-normal">
-        <FilledButton text="mai mult" color="bg-lightblue" to="/about" class="order-last lg:order-first"></FilledButton>
+        <FilledButton size="text-2xl" text="mai mult" color="bg-lightblue" to="/about" class="order-last lg:order-first"></FilledButton>
         <!-- phone number -->
         <div class="flex order-last lg:order-first">
           <div class="ml-2 flex items-center">

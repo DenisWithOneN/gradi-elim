@@ -29,7 +29,7 @@ import FilledButton from "../general/FilledButton.vue";
       </div>
       <div class="text-center mt-20">
         <FilledButton
-          color="bg-darkblue"
+          color="darkblue"
           text="vezi galerie"
           to="/gallery"
         ></FilledButton>

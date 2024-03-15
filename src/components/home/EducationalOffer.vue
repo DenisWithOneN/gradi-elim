@@ -54,6 +54,6 @@ const offers = [
     </div>
 
     <!-- /content container -->
-    <FilledButton color="bg-darkblue" text="oferta întreagă" to="/offer"></FilledButton>
+    <FilledButton color="darkblue" text="oferta întreagă" to="/offer"></FilledButton>
   </section>
 </template>

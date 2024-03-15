@@ -49,7 +49,7 @@ const items = [
         <p class="font-body text-lg text-darkblue">{{ item.text }}</p>
         </div>
       </div>
-      <FilledButton text="despre noi" color="bg-darkblue" to="/about" class="mt-5"></FilledButton>
+      <FilledButton text="despre noi" color="darkblue" to="/about" class="mt-5"></FilledButton>
     </div>
   </div>
   <div class="aboutdown spacer"></div>

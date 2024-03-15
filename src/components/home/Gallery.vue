@@ -12,17 +12,17 @@ import FilledButton from "../general/FilledButton.vue";
       </h2>
       <div class="flex justify-evenly">
         <img
-          src="https://picsum.photos/2000"
+          src="/src/assets/images/ZVE05682.jpg"
           alt="photo1"
           class="w-1/4 h-1/4"
         />
         <img
-          src="https://picsum.photos/2000"
+          src="/src/assets/images/ZVE05819.jpg"
           alt="photo2"
           class="w-1/4 h-1/4"
         />
         <img
-          src="https://picsum.photos/2000"
+          src="/src/assets/images/ZVE05758.jpg"
           alt="photo3"
           class="w-1/4 h-1/4"
         />

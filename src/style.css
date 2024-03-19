@@ -31,7 +31,11 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    aspect-ratio:800/500;
+    aspect-ratio:700/500;
+    min-height: 20rem;
+    max-height: 30rem;
+    max-width: 20rem;
+    min-width: 10rem;
   }
 
   @media (min-width: 1024px) {
@@ -41,10 +45,11 @@
     background-position: center;
     background-repeat: no-repeat;
     aspect-ratio:800/300;
+    min-height: 30rem;
+    max-height: 50rem;
+    max-width: 30rem;
     }
 }
-
-
 
   .navbar {
     background-image: url("./assets/svg/navbar.svg");

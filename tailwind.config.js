@@ -17,7 +17,8 @@ module.exports = {
         body: ['Itim']
       },
       height:{
-        'xlCustom': '28rem',
+        'lgCustom': '28rem',
+        'xlCustom': '35rem',
       },
       dropShadow: {
         'custom': '0px 4px 2px rgba(0, 0, 0, 0.25)',

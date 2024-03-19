@@ -28,13 +28,12 @@ const items = [
 ];
 </script>
 <template>
-  <div class="aboutup spacer"></div>
   <!-- background -->
+  <div class="aboutup spacer"></div>
   <div class="bg-lightblue">
     <div class="container mx-auto flex flex-col items-center">
       <h2
-        class="text-darkblue text-4xl text-center font-black font-heading uppercase sm:text-5xl md:text-6xl lg:text-7xl"
-      >
+        class="text-darkblue text-4xl text-center font-black font-heading uppercase sm:text-5xl md:text-6xl lg:text-7xl">
         misiune & viziune
       </h2>
       <p class="text-white text-sm text-center font-body max-w-sm mx-5 md:text-xl lg:max-w-4xl">
@@ -45,12 +44,12 @@ const items = [
       </p>
 
       <div class="flex flex-wrap justify-center mt-10">
-        <div v-for="(item, index) in items" :key="index" class="bg-yellow m-5 rounded-xl h-42 w-60 lg:w-96 p-5">
-        <p class="text-3xl font-body text-darkblue">{{ item.title }}</p>
-        <p class="font-body text-lg text-darkblue">{{ item.text }}</p>
+        <div v-for="(item, index) in items" :key="index" class="bg-yellow rounded-2xl drop-shadow-aboutCard w-72 h-60 m-5 p-5">
+          <p class="text-darkblue text-3xl font-body">{{ item.title }}</p>
+          <p class="text-darkblue text-lg font-body">{{ item.text }}</p>
         </div>
       </div>
-      <FilledButton text="despre noi" color="darkblue" to="/about" class="mt-5"></FilledButton>
+      <FilledButton :text="`despre noi`" :bgColor="`bg-darkblue`" :size="`text-xl xl:text-2xl`" :to="`/about`" class="mt-10"></FilledButton>
     </div>
   </div>
   <!-- /background -->

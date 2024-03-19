@@ -4,10 +4,11 @@ import { RouterLink } from 'vue-router';
 
 const props = defineProps({
     text: String,
-    color: String,
-    backgroundColor: String,
-    to: String,
+    bgColor: String,
+    textColor: String,
+    borderColor: String,
     size: String,
+    to: String,
 });
 
 
@@ -15,5 +16,5 @@ const props = defineProps({
 
 </script>
 <template>
-    <RouterLink :class="`border-${props.color}`, `text-${props.color}`, props.backgroundColor, props.size" class="drop-shadow-custom p-2 px-3 rounded-xl border-2 font-semibold font-body uppercase" :to="to">{{ props.text }}</RouterLink>
+    <RouterLink :class="props.bgColor, props.textColor, props.borderColor, props.size" class="drop-shadow-custom p-2 px-3 rounded-xl border-2 font-semibold font-body uppercase" :to="to">{{ props.text }}</RouterLink>
 </template>

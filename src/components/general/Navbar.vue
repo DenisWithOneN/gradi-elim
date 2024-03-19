@@ -40,7 +40,7 @@ const toggleMenu = () => {
         <RouterLink to="/schedule" class="uppercase font-semibold text-lg font-heading mx-2 text-darkblue">orar
         </RouterLink>
       </div>
-      <FilledButton color="darkblue" text="contact" to="/contact"></FilledButton>
+      <FilledButton :bgColor='`bg-darkblue`' :text="`contact`" :size="`text-xl`" :to="`/contact`" ></FilledButton>
     </div>
   </nav>
 

@@ -27,7 +27,7 @@ const toggleMenu = () => {
 <template>
   <!-- normal nav -->
   <nav class="navbar_spacer navbar hidden md:block">
-    <div class="flex justify-between container mx-auto pt-2">
+    <div class="flex justify-around container mx-auto pt-2">
       <div class="flex items-center">
         <img src="/src/assets/images/ELIM_LOGO.png" alt="logo" class="w-10 h-10 mx-2">
         <RouterLink to="/" class="uppercase font-semibold text-lg font-heading mx-2 text-darkblue">acasă</RouterLink>
@@ -40,7 +40,7 @@ const toggleMenu = () => {
         <RouterLink to="/schedule" class="uppercase font-semibold text-lg font-heading mx-2 text-darkblue">orar
         </RouterLink>
       </div>
-      <FilledButton color="bg-darkblue" text="contact" to="/contact"></FilledButton>
+      <FilledButton color="darkblue" text="contact" to="/contact"></FilledButton>
     </div>
   </nav>
 

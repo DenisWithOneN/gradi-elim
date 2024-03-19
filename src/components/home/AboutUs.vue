@@ -29,14 +29,15 @@ const items = [
 </script>
 <template>
   <div class="aboutup spacer"></div>
+  <!-- background -->
   <div class="bg-lightblue">
     <div class="container mx-auto flex flex-col items-center">
       <h2
-        class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase font-black font-heading text-center text-darkblue"
+        class="text-darkblue text-4xl text-center font-black font-heading uppercase sm:text-5xl md:text-6xl lg:text-7xl"
       >
         misiune & viziune
       </h2>
-      <p class="text-sm md:text-xl font-body text-white text-center mx-5">
+      <p class="text-white text-sm text-center font-body max-w-sm mx-5 md:text-xl lg:max-w-4xl">
         Grădiniţa noastră are o experienţă bogată în educaţiei la vârstă
         fragedă, în formarea unor deprinderi intelectuale şi abilităţi practice
         la copil, în funcţie de particularităţile de vârstă, la care putem
@@ -52,5 +53,6 @@ const items = [
       <FilledButton text="despre noi" color="darkblue" to="/about" class="mt-5"></FilledButton>
     </div>
   </div>
+  <!-- /background -->
   <div class="aboutdown spacer"></div>
 </template>

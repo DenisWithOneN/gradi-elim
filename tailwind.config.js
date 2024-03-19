@@ -17,14 +17,14 @@ module.exports = {
         body: ['Itim']
       },
       height:{
-        'normal': '35rem',
+        'xlCustom': '35rem',
+        'lgCustom': '30rem',
       },
       dropShadow: {
         'custom': '0px 4px 2px rgba(0, 0, 0, 0.25)',
       },
       fontSize: {
         mobileHeading: ['2.5rem', '2.5rem']
-      
       },
     },
   },

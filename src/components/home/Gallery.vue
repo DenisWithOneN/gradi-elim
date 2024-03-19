@@ -4,35 +4,40 @@ import FilledButton from "../general/FilledButton.vue";
 <template>
   <div class="galleryup spacer"></div>
   <div class="bg-green pb-5">
-    <div class="container mx-auto">
-      <h2
-        class="text-5xl uppercase text-center font-black font-heading text-darkblue mb-16"
-      >
+    <div class="container mx-auto flex flex-col justify-center items-center">
+      <h2 class="text-darkblue text-5xl uppercase text-center font-black font-heading  mb-16 md:text-6xl lg:text-7xl">
         galerie
       </h2>
-      <div class="flex justify-evenly">
-        <img
-          src="/src/assets/images/ZVE05682.jpg"
-          alt="photo1"
-          class="w-1/4 h-1/4"
-        />
-        <img
-          src="/src/assets/images/ZVE05819.jpg"
-          alt="photo2"
-          class="w-1/4 h-1/4"
-        />
-        <img
-          src="/src/assets/images/ZVE05758.jpg"
-          alt="photo3"
-          class="w-1/4 h-1/4"
-        />
+      <div class="flex gap-4">
+        <div style="width: 25rem; height: 25rem; 
+        background-image: url('./src/assets/gallery-images/ZVE05696.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;"></div>
+        <div class="flex flex-col gap-4">
+          <div class="h-48" style="
+        background-image: url('./src/assets/gallery-images/ZVE05564.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;"></div>
+          <div class="flex gap-4">
+            <div class="h-48 w-48" style="
+        background-image: url('./src/assets/gallery-images/ZVE05682.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;"></div>
+            <div class="h-48 w-48" style="
+        background-image: url('./src/assets/gallery-images/ZVE05836.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;"></div>
+          </div>
+        </div>
       </div>
+
       <div class="text-center mt-20">
-        <FilledButton
-          color="darkblue"
-          text="vezi galerie"
-          to="/gallery"
-        ></FilledButton>
+        <FilledButton :size="`text-xl xl:text-2xl`" :bgColor="`bg-darkblue`" :text="`vezi galerie`" :to="`/gallery`">
+        </FilledButton>
       </div>
     </div>
   </div>

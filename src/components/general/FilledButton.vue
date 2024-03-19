@@ -1,9 +1,16 @@
 <script setup>
 import { defineProps } from 'vue';
 import { RouterLink } from 'vue-router';
-const props = defineProps(['text', 'color', 'to', 'size']);
 
+//defined as String for TailwindCSS
+const props = defineProps({
+    text: String,
+    color: String,
+    to: String,
+    size: String,
+})
 </script>
+
 <template>
-    <RouterLink :class="'bg-'+props.color, props.size" class="p-2 px-3 rounded-xl text-white font-semibold font-body uppercase" :to="to">{{ props.text }}</RouterLink>
+    <RouterLink :class="`bg-${props.color}`, props.size" class="drop-shadow-custom p-2 px-3 rounded-xl text-white font-semibold font-body uppercase" :to="to">{{ props.text }}</RouterLink>
 </template>

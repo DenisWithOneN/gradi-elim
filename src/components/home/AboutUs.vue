@@ -33,7 +33,7 @@ const items = [
   <div class="bg-lightblue">
     <div class="container mx-auto flex flex-col items-center">
       <h2
-        class="text-darkblue text-5xl text-center font-black font-heading uppercase md:text-6xl lg:text-7xl">
+        class="text-darkblue mx-10 text-5xl text-center font-black font-heading uppercase md:text-6xl lg:text-7xl">
         misiune & viziune
       </h2>
       <p class="text-white text-sm sm:text-lg md:text-xl xl:text-2xl text-center font-body max-w-sm md:max-w-lg mx-5 lg:max-w-4xl">

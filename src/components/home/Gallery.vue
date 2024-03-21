@@ -1,9 +1,20 @@
 <script setup>
-import {ref} from 'vue'
+import FilledButton from "../general/FilledButton.vue";
+import { ref } from 'vue'
 const photos = ref([
   {
     imageURL: "/src/assets/gallery-images/ZVE05696.jpg",
   },
+  {
+    imageURL: "/src/assets/gallery-images/ZVE05564.jpg",
+  },
+  {
+    imageURL: "/src/assets/gallery-images/ZVE05682.jpg",
+  },
+  {
+    imageURL: "/src/assets/gallery-images/ZVE05836.jpg",
+  },
+
 ])
 
 </script>
@@ -34,8 +45,14 @@ const photos = ref([
       </div>
 
       <!-- tablet/phone gallery -->
-      <div v-for="(photo, index) in photos" :key="index" class="flex lg:hidden">
-        <div class="h-96 w-96 photoProps" :style="{backgroundImage: `url(${photo.imageURL})`}"></div>
+      <div class="lg:hidden flex flex-col justify-center items-center">
+        <div class="lg:hidden grid sm:grid-cols-2 gap-4">
+          <div v-for="(photo, index) in photos" :key="index">
+            <div class="h-60 w-60 md:h-72 md:w-72 photoProps rounded-2xl"
+              :style="{ backgroundImage: `url(${photo.imageURL})` }"></div>
+          </div>
+        </div>
+        <FilledButton :text="`Galerie`" :bgColor="`bg-darkblue`" :size="`text-xl xl:text-2xl`" :to="`/gallery`" class="mt-10"></FilledButton>
       </div>
 
     </div>
@@ -43,11 +60,12 @@ const photos = ref([
   <div class="gallerydown spacer"></div>
 </template>
 <style scoped>
-.photoProps{
+.photoProps {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .photo1 {
   width: 25rem;
   height: 25rem;

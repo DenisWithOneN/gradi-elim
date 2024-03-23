@@ -50,7 +50,7 @@ const hours = [
 
   <div v-for="(hour, index) in hours" :key="index">
     <div class="bg-white">
-      <img :src="hour.image" alt="gallery photo" class="h-14">
+      <img :src="hour.image" alt="gallery photo" class="h-14" :class="`${hour.dropshadowColor}`">
     </div>
   </div>
   

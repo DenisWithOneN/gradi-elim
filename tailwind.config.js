@@ -22,7 +22,10 @@ module.exports = {
       },
       dropShadow: {
         'custom': '0px 4px 2px rgba(0, 0, 0, 0.25)',
-        'aboutCard': '13px 15px rgba(69, 86, 99, 1)'
+        'aboutCard': '13px 15px rgba(69, 86, 99, 1)',
+        'scheduleCardGreen': '13px 15px rgba(69, 86, 99, 1)',
+        'scheduleCardBlue': '13px 15px rgba(69, 86, 99, 1)',
+        'scheduleCardYellow': '13px 15px rgba(69, 86, 99, 1)',
       },
       fontSize: {
         mobileHeading: ['2.5rem', '2.5rem']

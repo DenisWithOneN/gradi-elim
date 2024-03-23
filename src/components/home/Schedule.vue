@@ -5,72 +5,45 @@ const hours = [
     firstHour: "07:45",
     secondHour: "09:00",
     activity: "primirea copiilor",
+    color: "green"
   },
   {
     firstHour: "09:00",
     secondHour: "10:00",
     activity: "activitati pe domenii experientiale",
+    color: "blue"
   },
 
   {
     firstHour: "10:00",
     secondHour: "10:45",
     activity: "gustarea",
+    color: "yellow"
   },
   {
     firstHour: "10:45",
     secondHour: "11:30",
     activity: "jocuri si activitati didactice alese",
+    color: "green"
   },
   {
     firstHour: "11:30",
     secondHour: "12:30",
     activity: "activitati pe domenii experientiale",
+    color: "blue"
   },
   {
     firstHour: "12:30",
     secondHour: "13:00",
     activity: "jocuri recreative",
+    color: "yellow"
   },
 ];
 </script>
 <template>
-  <div class="container mx-auto mb-2 flex flex-col items-center justify-center">
-    <img src="/src/assets/images/schedule.png" alt="schedule" class="mx-10" />
-    <svg width="5" height="400" xmlns="http://www.w3.org/2000/svg" class="hidden lg:block">
-      <!-- Include your SVG content directly here -->
-      <use href="/src/assets/svg/background_design/scheduleLine.svg#1" />
-    </svg>
-    <div class="mx-10">
-      <h2 class="text-5xl font-black uppercase font-heading text-yellow">
-        orar
-      </h2>
-      <!-- hours -->
 
-      <!-- right content -->
-      <div>
-        <div
-          v-for="(interval, index) in hours"
-          :key="index"
-          class="flex items-start my-4"
-        >
-          <i class="bi bi-alarm-fill text-green text-5xl"></i>
-          <div class="flex flex-col ml-5">
-            <p class="font-body text-2xl font-bold text-darkblue">
-              {{ interval.firstHour }} - {{ interval.secondHour }}
-            </p>
-            <p class="font-body text-xl text-darkblue">{{ interval.activity }}</p>
-          </div>
-        </div>
-      </div>
-      <!-- /right content -->
-    </div>
-    <!-- /hours -->
+  <div v-for="(hour, index) in hours" :key="index">
+  
   </div>
-
-  <!-- <FilledButton
-          color="bg-yellow"
-          text="orar complet"
-          to="/schedule"
-        ></FilledButton> -->
+  
 </template>

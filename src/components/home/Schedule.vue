@@ -53,7 +53,7 @@ const hours = [
 ];
 </script>
 <template>
-  <section class="flex flex-col items-center justify-center gap-y-10">
+  <section class="flex flex-col items-center justify-center gap-y-10 mb-10">
     <h2 class="text-yellow text-5xl md:text-6xl lg:text-7xl font-heading uppercase font-black">orar</h2>
     <div class="flex flex-col sm:grid grid-cols-3 place-items-center  gap-10  mx-auto">
       <div v-for="(hour, index) in hours" :key="index"

@@ -4,7 +4,7 @@ import EmptyButton from "../general/EmptyButton.vue"
 </script>
 
 <template>
-  <div class="container lg:space-x-10 mx-auto px-10 flex flex-col justify-center items-center lg:flex-row">
+  <div class="container lg:space-x-10 mx-auto px-10 flex flex-col justify-center items-center lg:flex-row my-10">
     <!-- left side content -->
     <div class="flex flex-col order-last lg:order-first">
       <div class="flex flex-col items-center lg:items-start">

@@ -13,7 +13,7 @@ import EducationalOffer from "../components/home/EducationalOffer.vue";
     <Navbar></Navbar>
     <Hero></Hero>
     <Quote></Quote>
-    <AboutUs></AboutUs>
+    <AboutUs ></AboutUs>
     <Schedule></Schedule>
     <Gallery></Gallery>
     <EducationalOffer></EducationalOffer>

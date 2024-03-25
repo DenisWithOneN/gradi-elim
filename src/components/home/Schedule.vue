@@ -6,7 +6,7 @@ const hours = [
     secondHour: "09:00",
     activity: "primirea copiilor",
     dropshadowColor: "drop-shadow-scheduleCardGreen",
-    image: "src/assets/images/Layer 1.png",
+    image: "/src/assets/images/Layer 1.png",
     color: "text-green"
   },
   {
@@ -14,7 +14,7 @@ const hours = [
     secondHour: "10:00",
     activity: "activitati pe domenii experientiale",
     dropshadowColor: "drop-shadow-scheduleCardBlue",
-    image: "src/assets/images/Layer 2.png",
+    image: "/src/assets/images/Layer 2.png",
     color: "text-lightblue"
   },
 
@@ -23,7 +23,7 @@ const hours = [
     secondHour: "10:45",
     activity: "gustarea",
     dropshadowColor: "drop-shadow-scheduleCardYellow",
-    image: "src/assets/images/Layer 3.png",
+    image: "/src/assets/images/Layer 3.png",
     color: "text-yellow"
   },
   {
@@ -31,7 +31,7 @@ const hours = [
     secondHour: "11:30",
     activity: "jocuri si activitati didactice alese",
     dropshadowColor: "drop-shadow-scheduleCardGreen",
-    image: "src/assets/images/Layer 4.png",
+    image: "/src/assets/images/Layer 4.png",
     color: "text-green"
   },
   {
@@ -39,7 +39,7 @@ const hours = [
     secondHour: "12:30",
     activity: "activitati pe domenii experientiale",
     dropshadowColor: "drop-shadow-scheduleCardBlue",
-    image: "src/assets/images/Layer 5.png",
+    image: "/src/assets/images/Layer 5.png",
     color: "text-lightblue"
   },
   {
@@ -47,7 +47,7 @@ const hours = [
     secondHour: "13:00",
     activity: "jocuri recreative",
     dropshadowColor: "drop-shadow-scheduleCardYellow",
-    image: "src/assets/images/Layer 6.png",
+    image: "/src/assets/images/Layer 6.png",
     color: "text-yellow"
   },
 ];

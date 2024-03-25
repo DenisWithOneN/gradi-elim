@@ -81,28 +81,28 @@ const photos = ref([
 }
 
 .photo1 {
-  background-image: url("./src/assets/gallery-images/ZVE05696.jpg");
+  background-image: url("/src/assets/gallery-images/ZVE05696.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .photo2 {
-  background-image: url("./src/assets/gallery-images/ZVE05564.jpg");
+  background-image: url("/src/assets/gallery-images/ZVE05564.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .photo3 {
-  background-image: url("./src/assets/gallery-images/ZVE05682.jpg");
+  background-image: url("/src/assets/gallery-images/ZVE05682.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .photo4 {
-  background-image: url("./src/assets/gallery-images/ZVE05836.jpg");
+  background-image: url("/src/assets/gallery-images/ZVE05836.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -26,10 +26,10 @@ const offers = [
 ];
 </script>
 <template>
-  <section class="mx-auto flex flex-col items-center ">
+  <section class="container mx-auto flex flex-col items-center ">
     <div class="flex flex-col items-center mb-10">
       <h2
-        class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-center font-black uppercase font-heading text-yellow px-10 mb-5">
+        class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-center font-black uppercase font-heading text-yellow  mb-5">
         oferta educațională
       </h2>
       <p class="text-xl px-10 sm:px-20 lg:px-0 lg:w-1/2 text-center font-body text-darkblue">

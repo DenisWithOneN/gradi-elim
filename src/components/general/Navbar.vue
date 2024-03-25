@@ -46,14 +46,15 @@ const toggleMenu = () => {
 
 
   <!-- mobile nav -->
-  <nav>
-    <div class="text-3xl cursor-pointer mx-2 md:hidden block lg:mx-0">
-      <i class="bi bi-list" @click="toggleMenu"></i>
+  <nav class="">
+    <div class="text-3xl flex justify-between items-center cursor-pointer px-3 py-2  md:hidden lg:mx-0">
+      <i class="bi bi-list text-darkblue" @click="toggleMenu"></i>
+      <img src="/src/assets/images/ELIM_LOGO.png" alt="logo" class="w-8 h-8 mx-2">
     </div>
 
     <div>
       <ul :class="{ 'top-[50px]': isMenuOpen, 'opacity-100': isMenuOpen, 'invisible': !isMenuOpen }"
-        class="bg-green min-h-screen text-center z-[1] absolute w-full left-0 py-4 pl-7 top-[-400px] transition-all ease-in duration-500"
+        class="bg-white min-h-screen text-center z-[1] absolute w-full left-0 py-4 pl-7 top-[-400px] transition-all ease-in duration-500"
         :style="{ opacity: isMenuOpen ? 1 : 0 }">
         <li class="mx-4 my-6 ">
           <RouterLink to="/" class="text-2xl text-darkblue font-semibold ">Acasa</RouterLink>

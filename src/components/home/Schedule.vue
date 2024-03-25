@@ -54,15 +54,17 @@ const hours = [
 </script>
 <template>
   <section class="flex flex-col items-center justify-center gap-y-10">
-  <h2 class="text-yellow text-5xl md:text-6xl lg:text-7xl font-heading uppercase font-black">orar</h2>
-  <div class="grid grid-cols-3 place-items-center  gap-10  mx-auto">
-    <div v-for="(hour, index) in hours" :key="index" class=" bg-white flex flex-col items-center pt-5 p-2 w-52 h-52 rounded-2xl" :class="hour.dropshadowColor">
-      <img :src="hour.image" alt="gallery photo" class="h-14">
-      <p class="text-xl md:text-2xl lg:text-3xl font-bold font-heading" :class="`${hour.color}`">{{ hour.firstHour }} - {{ hour.secondHour }}</p>
-      <p class="text-darkblue font-body text-sm sm:text-lg md:text-xl xl:text-2xl text-center">{{ hour.activity }}</p>
+    <h2 class="text-yellow text-5xl md:text-6xl lg:text-7xl font-heading uppercase font-black">orar</h2>
+    <div class="flex flex-col sm:grid grid-cols-3 place-items-center  gap-10  mx-auto">
+      <div v-for="(hour, index) in hours" :key="index"
+        class=" bg-white flex flex-col items-center pt-5 p-2 w-40 h-40 md:w-52 md:h-52 lg:w-60 lg:h-60 xl:w-80 xl:h-80 rounded-2xl" :class="hour.dropshadowColor">
+        <img :src="hour.image" alt="gallery photo" class="h-14 md:h-20 lg:h-24 xl:h-28">
+        <p class="text-xl md:text-3xl lg:text-4xl xl:text-5xl font-bold font-heading" :class="`${hour.color}`">{{ hour.firstHour }}
+          - {{ hour.secondHour }}</p>
+        <p class="text-darkblue font-body text-sm sm:text-md md:text-xl xl:text-3xl text-center">{{ hour.activity }}</p>
+      </div>
     </div>
-  </div>
-  <FilledButton :bgColor='`bg-yellow`' :text="`orar complet`" :size="`text-xl`" :to="`/schedule`"></FilledButton>
-</section>
+    <FilledButton :bgColor='`bg-yellow`' :text="`orar complet`" :size="`text-xl`" :to="`/schedule`"></FilledButton>
+  </section>
 
 </template>

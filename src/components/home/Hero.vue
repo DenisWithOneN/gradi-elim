@@ -25,10 +25,12 @@ import EmptyButton from "../general/EmptyButton.vue"
       </div>
       <!-- buttons -->
       <div class="flex flex-col items-center justify-center sm:flex-row lg:justify-normal">
-        <FilledButton :size="`text-xl xl:text-2xl`" :bgColor="`bg-lightblue`" :text="`mai mult`" :to="`/about`" class="my-2 sm:my-0 sm:mr-2">
+        <FilledButton :size="`text-xl xl:text-2xl`" :bgColor="`bg-lightblue`" :text="`mai mult`" :to="`/about`"
+          class="my-2 sm:my-0 sm:mr-2">
         </FilledButton>
-        <EmptyButton :size="`text-xl xl:text-2xl`" :text="'contact'" :borderColor="`border-lightblue`" :textColor="`text-lightblue`" :bgColor="'bg-white'"
-          :to="'/contact'" class="my-2 sm:my-0 sm:ml-2"></EmptyButton>
+        <EmptyButton :size="`text-xl xl:text-2xl`" :text="'contact'" :borderColor="`border-lightblue`"
+          :textColor="`text-lightblue`" :bgColor="'bg-white'" :to="'/contact'" class="my-2 sm:my-0 sm:ml-2">
+        </EmptyButton>
       </div>
       <!-- /buttons -->
     </div>

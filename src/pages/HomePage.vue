@@ -9,17 +9,16 @@ import Gallery from "../components/home/Gallery.vue";
 import EducationalOffer from "../components/home/EducationalOffer.vue";
 </script>
 <template>
+
   <body class="min-h-screen flex flex-col justify-between">
     <Navbar></Navbar>
     <Hero></Hero>
     <Quote></Quote>
-    <AboutUs ></AboutUs>
+    <AboutUs></AboutUs>
     <Schedule></Schedule>
     <Gallery></Gallery>
     <EducationalOffer></EducationalOffer>
     <Footer></Footer>
   </body>
 </template>
-<style>
-
-</style>
+<style></style>

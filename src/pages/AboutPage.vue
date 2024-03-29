@@ -8,9 +8,10 @@ import AboutSectionThree from "../components/about/AboutSectionThree.vue";
 <template>
   <body class="min-h-screen flex flex-col justify-between">
     <Navbar></Navbar>
-    <section class="container mx-auto">
+    <section class="container mx-auto flex flex-col gap-32 my-20">
       <AboutSectionOne></AboutSectionOne>
       <AboutSectionTwo></AboutSectionTwo>
+      <AboutSectionThree></AboutSectionThree>
     </section>
     <Footer></Footer>
   </body>

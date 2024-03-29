@@ -10,11 +10,11 @@ import FilledButton from "/src/components/general/FilledButton.vue";
     ></div>
     <div class="flex flex-col items-center lg:items-start gap-3">
       <h1
-        class="text-center font-heading font-black uppercase text-green text-5xl md:text-6xl lg:text-7xl lg:text-start"
+        class="text-center font-heading font-black uppercase text-green text-3xl md:text-5xl lg:text-6xl lg:text-start"
       >
         despre noi
       </h1>
-      <div class="text-center lg:text-start">line</div>
+      <div class="hidden md:block w-32 h-1 bg-green"></div>
       <p
         class="text-darkblue text-center font-body text-sm sm:text-lg md:text-xl xl:text-2xl lg:max-w-2xl lg:text-start"
       >

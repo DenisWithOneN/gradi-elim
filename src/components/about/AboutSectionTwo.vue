@@ -17,14 +17,14 @@
       </div>
     </div>
 
-    <div class="flex flex-col lg:justify-end lg:items-end">
+    <div class="flex flex-col lg:justify-end lg:items-end gap-3">
       <h1
         class="text-center font-heading font-black uppercase text-yellow text-3xl md:text-5xl lg:text-6xl lg:text-end"
       >
         misiunea &<br />
         viziunea noastra
       </h1>
-      <div class="text-center">line</div>
+      <div class="hidden md:block w-32 h-1 bg-yellow"></div>
       <p
         class="text-darkblue text-center font-body text-sm sm:text-lg md:text-xl xl:text-2xl lg:max-w-2xl lg:text-end"
       >
@@ -37,19 +37,19 @@
 </template>
 <style scoped>
 .photo2 {
-  background-image: url("src/assets/gallery-images/ZVE05452.jpg");
+  background-image: url("src/assets/gallery-images/ZVE05592.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .photo3 {
-  background-image: url("src/assets/gallery-images/ZVE05452.jpg");
+  background-image: url("src/assets/gallery-images/ZVE05603.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .photo4 {
-  background-image: url("src/assets/gallery-images/ZVE05452.jpg");
+  background-image: url("src/assets/gallery-images/ZVE05827.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
